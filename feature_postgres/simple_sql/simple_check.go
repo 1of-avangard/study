@@ -41,7 +41,7 @@ OFFSET $2
 			return nil, err
 		}
 		tasks = append(tasks, task)
-		//PrintTasks(task)
+
 	}
 	return tasks, nil
 }
